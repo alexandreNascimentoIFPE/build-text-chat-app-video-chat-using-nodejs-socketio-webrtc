@@ -1,5 +1,5 @@
 {
-  "name": "chatwithme",
+  "name": "build-text-chat-app-video-chat-using-nodejs-socketio-webrtc",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,12 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "tori",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandreNascimentoIFPE/build-text-chat-app-video-chat-using-nodejs-socketio-webrtc.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandreNascimentoIFPE/build-text-chat-app-video-chat-using-nodejs-socketio-webrtc/issues"
+  },
+  "homepage": "https://github.com/alexandreNascimentoIFPE/build-text-chat-app-video-chat-using-nodejs-socketio-webrtc#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "peer": "^0.2.10",
-    "peerjs": "^1.1.0",
+    "peer": "^0.5.2",
+    "peerjs": "^1.2.0",
     "socket.io": "^2.3.0"
   }
 }
